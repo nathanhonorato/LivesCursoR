@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2021-12-06T21:46:25-03:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2021-12-06-anlise-da-base-rais/",
+    "title": "Análise da base RAIS",
+    "description": "Analisar os salários da base da RAIS. Esse projeto foi feito na Semana Data Science na Prática da Curso-R",
+    "author": [
+      {
+        "name": "Nathan Honorato",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-06",
+    "categories": [],
+    "contents": "\r\nEss é o meu primeiro projeto no portfólio.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-06T22:25:57-03:00",
+    "input_file": "anlise-da-base-rais.knit.md"
   }
 ]
