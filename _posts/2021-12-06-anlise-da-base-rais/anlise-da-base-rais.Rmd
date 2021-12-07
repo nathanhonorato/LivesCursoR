@@ -10,13 +10,73 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Ess é o meu primeiro projeto no portfólio.
+Esse é o meu **primeiro projeto** no *portfólio*.
+
+Formatar um texto como código: `usethis::use_git()`
+
+Como colocar um link? [Live Curso-R](https://www.youtube.com/watch?v=eEAd0PPqizE)
+
+## Listas
+
+### Lista não numerada
+
+-   Beatriz
+    - Professora
+
+-   Julio
+
+-   Fernando
+
+-   Tereza
+
+### Lista numerada
+
+1.  Beatriz
+    1. Professora
+
+2.  Julio
+
+3.  Fernando
+
+4.  Tereza
+
+## Imagens
+
+![Exemplo](https://curso-r.com/images/clientes/logo-elo.png)
+
+## Código em R
+
+```{r echo=TRUE}
+# aqui a gente coloca o código em R
+1+1
+
+```
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+```
+
+Tabela:
+```{r}
+knitr::kable(mtcars)
+```
+
+Imagem:
+```{r, out.width= "90%", fig.align='center', dpi=300,fig.cap="Grafico"}
+plot(mtcars$mpg, mtcars$hp)
+```
+
+## Código em linha
+Não colocar código com mais de uma linha.
+Se tiver mais de uma linha, fazer chunk.
+
+Hoje é o dia `r Sys.Date()`.
+
+Criamos um campo de código!
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
-
-
