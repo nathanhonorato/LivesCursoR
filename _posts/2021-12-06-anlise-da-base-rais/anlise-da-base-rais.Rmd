@@ -1,5 +1,5 @@
 ---
-title: "Análise da base RAIS"
+title: "Estudando Rmd"
 description: |
   Analisar os salários da base da RAIS. Esse projeto foi feito na Semana Data Science na Prática da Curso-R
 author:
